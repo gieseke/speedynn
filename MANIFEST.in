@@ -1,0 +1,9 @@
+include *.rst
+include CONTRIBUTING.md
+include LICENSE
+include requirements.txt
+
+recursive-include examples *.py
+recursive-include speedynn *.c *.h *.i *.cl
+
+exclude MANIFEST.in
